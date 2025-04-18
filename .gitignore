@@ -1,0 +1,162 @@
+# Игнорировать папки из Visual Studio / VS Code / Rider
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Игнорировать двоичные и объектные файлы
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Игнорировать файлы сборки
+*.dll
+*.exe
+*.pdb
+*.dll.config
+*.so
+*.dylib
+
+# Игнорировать файлы Visual Studio
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Игнорировать Visual Studio профилирование
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Файлы кэша ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Игнорировать Rider автоматически созданные файлы
+.idea/
+
+# Игнорировать NuGet пакеты
+*.nupkg
+# Папка NuGet пакетов
+**/[Pp]ackages/*
+# Игнорировать все файлы в packages, кроме build/, которые используются как MSBuild цели
+!**/[Pp]ackages/build/
+# Раскомментируйте, если вы используете NuGet cache в локальной репе
+#!**/[Pp]ackages/repositories.config
+# Файлы проекта NuGet v3
+*.nuget.props
+*.nuget.targets
+
+# Игнорировать сгенерированные файлы
+Generated_Code/
+
+# Игнорировать SQL Server-файлы
+*.mdf
+*.ldf
+*.ndf
+
+# Игнорировать локальные файлы SQL Server
+*.mdf
+*.ldf
+*.ndf
+
+# Игнорировать локальную базу данных ASP.NET
+App_Data/*.mdf
+App_Data/*.ldf
+App_Data/*.sdf
+
+# Игнорировать временные файлы
+[Tt]emp/
+[Tt]mp/
+*.tmp
+*.temp
+
+# Игнорировать логи и данные приложения
+*.log
+logs/
+Log/
+Logs/
+
+# Игнорировать файлы конфигурации, содержащие конфиденциальные данные
+# *.Development.json
+# appsettings.*.json
+# Раскомментируйте, если хотите игнорировать файлы с настройками окружения
+# Или укажите конкретные файлы
+
+# Игнорировать локальные SSL-сертификаты
+*.pfx
+*.key
+*.crt
+
+# Docker-специфичные файлы
+.dockerignore
+**/.docker/
+**/docker-compose*.yml
+**/docker-compose*.yaml
+**/docker-compose.debug.yml
+**/docker-compose.override.yml
+**/docker-compose.vs.debug.yml
+**/docker-compose.vs.release.yml
+**/compose.yml
+**/compose.override.yml
+
+# Игнорировать миграции Entity Framework
+# *.Migrations/
+
+# Файлы проекта
+**/*.csproj.user
+
+# Игнорировать архивы
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Игнорировать папку для сгенерированных Swagger файлов
+/wwwroot/swagger/
+/wwwroot/api-docs/
+
+# Игнорировать кэш JetBrains Rider
+.idea/
+*.sln.iml
+
+# Игнорировать папку CodeRush
+.cr/ 
