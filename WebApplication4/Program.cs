@@ -1,4 +1,4 @@
-using AuthLab.Data;
+using WebApplication4.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
